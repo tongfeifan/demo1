@@ -1,0 +1,54 @@
+<view class="container">
+  <view class="head">
+    <view class="header">
+      <text class="title">大家的想法</text>
+      <text class="description">我们的精神角落</text>
+    </view>
+  </view>
+  <view class="body">
+    <scroll-view scroll-y="true" height="100%">
+      <block >
+        <navigator url="../list/list?type=1&title=1">
+          <view class="board">
+            <view class="board-info">
+              <text class="board-name">值得再看</text>
+              <image class="board-img" src="/images/arrowright.png" mode="aspectFill"/>
+            </view>
+          </view>
+        </navigator>
+        <navigator url="../list/list?type=1&title=1">
+          <view class="board">
+            <view class="board-info">
+              <text class="board-name">这本书写的不错</text>
+              <image class="board-img" src="/images/arrowright.png" mode="aspectFill"/>
+            </view>
+          </view>
+        </navigator>
+        <navigator url="../list/list?type=1&title=1">
+          <view class="board">
+            <view class="board-info">
+              <text class="board-name">我觉得很不错</text>
+              <image class="board-img" src="/images/arrowright.png" mode="aspectFill"/>
+            </view>
+          </view>
+        </navigator>
+        <navigator url="../list/list?type=1&title=1">
+          <view class="board">
+            <view class="board-info">
+              <text class="board-name">顶楼上</text>
+              <image class="board-img" src="/images/arrowright.png" mode="aspectFill"/>
+            </view>
+          </view>
+        </navigator>
+        <navigator url="../list/list?type=1&title=1">
+          <view class="board">
+            <view class="board-info">
+              <text class="board-name">再顶楼上</text>
+              <image class="board-img" src="/images/arrowright.png" mode="aspectFill"/>
+            </view>
+          </view>
+        </navigator>
+      </block>
+    </scroll-view>
+  </view>
+</view>
